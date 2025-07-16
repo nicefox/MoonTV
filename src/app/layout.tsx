@@ -67,8 +67,6 @@ export default async function RootLayout({
           dangerouslySetInnerHTML={{
             __html: `window.RUNTIME_CONFIG = ${JSON.stringify(runtimeConfig)};`,
           }}
-          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9061749980832250"
-     crossorigin="anonymous"></script>
         />
       </head>
       <body
