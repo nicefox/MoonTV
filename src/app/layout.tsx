@@ -59,9 +59,6 @@ export default async function RootLayout({
   return (
     <html lang='zh-CN' suppressHydrationWarning>
    <head>
-  {/* 将配置序列化后直接写入脚本，浏览器端可通过 window.RUNTIME_CONFIG 获取 */}
-  {/* eslint-disable-next-line @next/next/no-sync-scripts */}
-<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-7QQXCKXB5X"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
